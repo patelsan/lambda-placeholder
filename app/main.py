@@ -1,7 +1,7 @@
 import json
 
 def handler(event, context):
-  print("EVENT:", event)
+  print("RECEIVED EVENT:", event)
     
   return {
     'statusCode': 200,
